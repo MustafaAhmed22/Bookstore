@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
 *{
     padding: 0;
     margin: 0;
@@ -6,5 +8,24 @@
 }
 body{
 font-family: 'Josefin Sans',sans-serif;
+height: 1200px;
+}
 
+
+.navbar-default{
+    background-color: #fff;
+    border-color: rgb(196, 42, 42);
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form{
+    padding-bottom: 8px;
+    padding-top: 5px ;
+    
+}
+.form-control{
+    border-radius: 100px;
+    padding: 20px 80px;
+    font-size: 18px;
+    font-weight: 200;
+    border: 1px solid #f1f1f1;
 }
