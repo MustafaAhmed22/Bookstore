@@ -9,12 +9,10 @@
 body{
 font-family: 'Josefin Sans',sans-serif;
 height: 1200px;
+background-color: rgba(247, 207, 207, 0.288);
 }
-
-
 .navbar-default{
     background-color: #fff;
-    border-color: rgb(196, 42, 42);
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form{
@@ -32,4 +30,19 @@ height: 1200px;
 .flex{
 display: flex;
 justify-content: center;
+    color:black;
+margin-bottom: 10px;
+
+}
+.nav-pills li a{
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.nav-pills li a:hover {
+    color: red;
+    background-color: #fff;
+}
+.navbar-default{
+border-color: #fff;
 }
