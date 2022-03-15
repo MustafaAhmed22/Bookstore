@@ -32,6 +32,10 @@ display: flex;
 justify-content: center;
     color:black;
 margin-bottom: 10px;
+position:sticky;
+top: 0;
+z-index: 1;
+background-color: rgb(247, 207, 207);
 
 }
 .nav-pills li a{
@@ -45,4 +49,6 @@ margin-bottom: 10px;
 }
 .navbar-default{
 border-color: #fff;
+}
+div .carousel-inner{
 }
