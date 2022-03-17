@@ -158,6 +158,7 @@ border-color: #fff;
     background-color: #fff;
     width: 100%;
     padding: 50px;
+    margin-bottom: 100px;
 }
 .featured-crausel {
     background-color: #e71818;
@@ -181,3 +182,59 @@ border-color: #fff;
     
 }
 /*featured section*/
+
+/*latest published*/
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover{
+    background-color: #e71818;
+}
+.latest-items li a{
+     background-color: transparent;
+     color: #454E6D;
+      border: 1px solid rgba(94, 88, 88, 0.418);
+      border-radius: 18px;
+      margin: 1px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: 600;
+}
+
+/*latest published*/
+/*browse more*/
+.flex-more {
+    display: flex;
+    justify-content: center;
+    
+}
+.btn-more{
+    color: #e71818;
+    border: 1px solid #e71818;
+    padding: 20px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: #fff;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+/*browse more*/
+
+.btn-more1 {
+    color: #ffffff;
+    border: 1px solid #e71818;
+    padding: 15px;
+    border-radius: 40px;
+    text-decoration: none;
+    background-color: rgb(218, 24, 24);
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+.imag1{
+  background: url(../images/10.webp);
+
+}
+.imag2 {
+    background: url(../images/12.webp);
+
+}
