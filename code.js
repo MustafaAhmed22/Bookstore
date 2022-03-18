@@ -1,10 +1,17 @@
-$('.carousel').carousel({
-    interval: 2000
-})
-
 $(document).ready(function () {
-    $('#media').carousel({
-        pause: true,
-        interval: false,
+    $('.hero-slider').slick({
+       dots: true, 
+       autoplay: true,
+       arrows:false,
     });
 });
+
+$(document).ready(function () {
+    $('.hero-slider').slick({
+        dots: true,
+        autoplay: true,
+
+    });
+});
+
+console.log('asaas');

@@ -238,3 +238,38 @@ border-color: #fff;
     background: url(../images/12.webp);
 
 }
+/*first slider*/
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100%);
+    font-size: 60px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+}
+
+#hero-slide1, #hero-slide2, #hero-slide3 { 
+    width: 100%;
+    height: 580px;
+}
+
+#hero-slide1 {
+    background-image: url(/images/h1_hero1.jpg.webp);
+}
+
+#hero-slide2 {
+    background-image: url(/images/h1_hero2.jpg.webp);
+}
+
+#hero-slide3 {
+    background-image: url(/images/h1_hero3.jpg.webp);
+}
+
+.slick-dots li button:before{
+border: 1px solid black;
+border-radius: 50%;
+font-size: 3rem !important;
+color: #e71818;
+}
