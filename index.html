@@ -19,7 +19,8 @@
   <title>BookWorms</title>
 </head>
 
-<body>
+<body onload="loadingfunction()" >
+  <div id="loader"></div>
   <!------------------------------NAVBAR--------------------------------------->
   <nav class="navbar navbar-default">
     <div class="container">
@@ -735,8 +736,6 @@
         </div>
       </div>
     </div>
-  </div>
-
   <!---------------------------------latest section----------------------------------------->
   <!--button more-->
   <div class="container flex-more">
@@ -768,6 +767,7 @@
       </div>
     </div>
   </div>
+  
 <!-----------------------view details section------------------------------>
   <div class="container">
   <div class="blue-img">
@@ -777,9 +777,7 @@
   </div>
 
 
-  </div>
-
-
+  
 
 
   <!--back to top button-->
@@ -788,6 +786,7 @@
   </div>
   <!--back to top button-->
 
+  </div>
   </div>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
